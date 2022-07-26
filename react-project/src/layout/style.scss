@@ -1,0 +1,92 @@
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.ant-layout {
+  height: 100%;
+  width: 100%;
+
+  .ant-layout-sider {
+    .ant-layout-sider-children {
+
+      .side-logo,
+      .side-logo>img {
+        width: 100%;
+        height: 64px;
+        background: #fff;
+      }
+
+      .side-logo-small,
+      .side-logo-small>img {
+        width: 100%;
+        height: 32px;
+        background: #fff;
+      }
+    }
+
+  }
+
+  .ant-layout-header {
+    background: #fff;
+    font-size: 20px;
+
+    .trigger {
+      display: inline-block;
+      cursor: pointer;
+    }
+
+    .ant-breadcrumb {
+      display: inline-block;
+      margin-left: 30px;
+
+      span {
+        cursor: pointer;
+      }
+    }
+
+    .icons {
+      float: right;
+
+      .display {
+        display: inline-block;
+      }
+
+      span {
+        cursor: pointer;
+        display: inline-block;
+        margin-left: 20px;
+      }
+    }
+
+
+  }
+
+  .ant-layout-content {
+    padding: 50px;
+    overflow: auto;
+
+    .main-content {
+      position: relative;
+
+      .switch {
+        position: fixed;
+        top: 30%;
+        right: 0;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 20px;
+        text-align: center;
+        // background: #1890ff;
+        color: #fff;
+        border-radius: 5px 0 0 5px;
+        cursor: pointer;
+      }
+    }
+
+  }
+}

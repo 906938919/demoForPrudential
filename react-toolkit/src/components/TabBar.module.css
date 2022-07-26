@@ -1,0 +1,11 @@
+.bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+}
+
+.space {
+  padding-bottom: 49px
+}
